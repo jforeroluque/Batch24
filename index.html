@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 7 de Febrero</title>
-    <h1>Clase 7 de febrero</h1>
 </head>
 <body>
-    <h2>Para configurar una cuenta git</h2>
-    <p>(base) jorgeforero@192 DEVFBatch % git init para ubicar el archivo localmente (base) </p>
-    <p>(base) jorgeforero@192 DEVFBatch % git config -l para configurar las credenciales </p>
-    <p>(base) jorgeforero@192 DEVFBatch % git config --global user.name "jforeroluque" para configurar el username del github</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git config --global user.email "j.forero@me.com" para configurar el mail del github</p>
+    <main>
+        <section>
+        <h2>Clase 7 de febrero</h2>
+        <h3>Para configurar una cuenta git</h3>
+        <p>(base) jorgeforero@192 DEVFBatch % git init para ubicar el archivo localmente (base) </p>
+        <p>(base) jorgeforero@192 DEVFBatch % git config -l para configurar las credenciales </p>
+        <p>(base) jorgeforero@192 DEVFBatch % git config --global user.name "jforeroluque" para configurar el username del github</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git config --global user.email "j.forero@me.com" para configurar el mail del github</p>
+        
+        <h3>Para conectarla a un Git local</h3>
+        <p>(base) jorgeforero@192 DEVFBatch % git status para revisar si hay commits y si hay tracked files</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git add index.html Con este añado es el archivo que voy a trackear o que voy a modificar y si le doy status ya va a aparecer New;file index.html</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git commit -m "Creamos el archivo base index.html" Aqui ya le pongo un mensaje al comit a lo que sea que le haya hecho</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git log Con este ya entonces miramos lo ultimo que ha pasado en el archivo</p>
+        
+        <h3>Para conectarla a github (Remoto)</h3>
+        <p>(base) jorgeforero@192 DEVFBatch % git remote add origin "https://github.com/jforeroluque/Batch24.git" se crea un repositorio en github y se copia esa URL, el repositorio publico</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git remote -v con este se revisa que si está conectado</p>
+        <p>(base) jorgeforero@192 DEVFBatch % git push origin master Con este lo mandamos al github</p>
+
+        </section>
+
+        <section>
+        <h2>Clase 9 de febrero</h2>
+        <p>se usa emmet con HTML5 para crear lo más importante</p>
+        <p>No se puede tener más de un main</p>
+        
+
+        </section>
+    </main>
     
-    <h2>Para conectarla a un Git local</h2>
-    <p>(base) jorgeforero@192 DEVFBatch % git status para revisar si hay commits y si hay tracked files</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git add index.html Con este añado es el archivo que voy a trackear o que voy a modificar y si le doy status ya va a aparecer New;file index.html</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git commit -m "Creamos el archivo base index.html" Aqui ya le pongo un mensaje al comit a lo que sea que le haya hecho</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git log Con este ya entonces miramos lo ultimo que ha pasado en el archivo</p>
-    
-    <h2>Para conectarla a github (Remoto)</h2>
-    <p>(base) jorgeforero@192 DEVFBatch % git remote add origin "https://github.com/jforeroluque/Batch24.git" se crea un repositorio en github y se copia esa URL, el repositorio publico</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git remote -v con este se revisa que si está conectado</p>
-    <p>(base) jorgeforero@192 DEVFBatch % git push origin master Con este lo mandamos al github</p>
 
 </body>
 </html>
